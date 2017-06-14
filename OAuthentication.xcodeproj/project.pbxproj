@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		128605041E55E15F00C698B5 /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 128605031E55E15F00C698B5 /* SAPCommon.framework */; };
+		128605051E55E16600C698B5 /* SAPCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 128605031E55E15F00C698B5 /* SAPCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		12C8F50F782CB93827522344 /* PurchaseOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6AACA1E1DDEC37193F3A22 /* PurchaseOrderItem.swift */; };
+		1770D29F4E270A3ABA942400 /* Supplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB7B9550BC981C3BBA994FC5 /* Supplier.swift */; };
+		250FC7A33C1FDCFDB6EBC304 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC3E007C65EF2520CFF905F /* Customer.swift */; };
+		39AEC2961EEA8A04000A5DD7 /* CustomerDataTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AEC2951EEA8A04000A5DD7 /* CustomerDataTVC.swift */; };
+		39B856E61EE9218D001DAED0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B856E51EE9218D001DAED0 /* Constants.swift */; };
+		39B856E81EE921B5001DAED0 /* ESPMContainerDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B856E71EE921B5001DAED0 /* ESPMContainerDataAccess.swift */; };
+		39B856EB1EE922B7001DAED0 /* OAuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B856EA1EE922B7001DAED0 /* OAuthVC.swift */; };
+		39B856EE1EE922F7001DAED0 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B856ED1EE922F7001DAED0 /* ActivityIndicator.swift */; };
+		39B856F01EE92328001DAED0 /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B856EF1EE92328001DAED0 /* Notifier.swift */; };
+		39EED2C91EEB28D000B9E26F /* MasterDetailDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39EED2C81EEB28D000B9E26F /* MasterDetailDelegate.swift */; };
+		3D2677DD199038F863C2AE36 /* PurchaseOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD6C3C6AA30821EB198D1C2 /* PurchaseOrderHeader.swift */; };
+		5836B7DED425CE777109C6DC /* SalesOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BF76903B82CBBD44F4962A /* SalesOrderItem.swift */; };
+		62403F04E836E96CEA8EBFBC /* ESPMContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A37AC093B0CF501E6D65A9 /* ESPMContainer.swift */; };
+		665CB3607A695D076B3DA82E /* ProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62457E4A77990916F651DD /* ProductCategory.swift */; };
+		755EE24B1DD4760600F41DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EE24A1DD4760600F41DC4 /* AppDelegate.swift */; };
+		755EE24D1DD4760700F41DC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EE24C1DD4760700F41DC4 /* ViewController.swift */; };
+		755EE2501DD4760700F41DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755EE24E1DD4760700F41DC4 /* Main.storyboard */; };
+		755EE2521DD4760700F41DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755EE2511DD4760700F41DC4 /* Assets.xcassets */; };
+		755EE2551DD4760700F41DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 755EE2531DD4760700F41DC4 /* LaunchScreen.storyboard */; };
+		7569DA571E5C807F00C5D751 /* SAPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7569DA551E5C806800C5D751 /* SAPFoundation.framework */; };
+		7569DA581E5C807F00C5D751 /* SAPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7569DA551E5C806800C5D751 /* SAPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		756C7B801DD4C0690017B469 /* SAPOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 756C7B781DD4C0600017B469 /* SAPOData.framework */; };
+		756C7B811DD4C0690017B469 /* SAPOData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 756C7B781DD4C0600017B469 /* SAPOData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75C120411E682416005E9FD2 /* SAPOfflineOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1203F1E6823E8005E9FD2 /* SAPOfflineOData.framework */; };
+		75C120421E682416005E9FD2 /* SAPOfflineOData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1203F1E6823E8005E9FD2 /* SAPOfflineOData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75C120431E682416005E9FD2 /* SAPFiori.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1203D1E6823E0005E9FD2 /* SAPFiori.framework */; };
+		75C120441E682416005E9FD2 /* SAPFiori.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 75C1203D1E6823E0005E9FD2 /* SAPFiori.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B1078320086F11754FB09A1 /* ProductText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D624D80981C6BF4E1AE09B3E /* ProductText.swift */; };
+		996EBC765AE5FC6B6351435F /* SalesOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6D2F5190D4C4B1056CD4E5 /* SalesOrderHeader.swift */; };
+		A77F6C555D0362AA235047B2 /* ESPMContainerMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216121600B09D3DC6CCB8466 /* ESPMContainerMetadata.swift */; };
+		DEDAFD8FB699EFC1F9C49B5B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EFA7FA788627CB13F558E3 /* Product.swift */; };
+		E50A2C6251D1468D8030023A /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6838478B4547CD2E72A7A4CF /* Stock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		755EE25C1DD4760700F41DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 755EE23F1DD4760600F41DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 755EE2461DD4760600F41DC4;
+			remoteInfo = OAuthentication;
+		};
+		755EE2671DD4760700F41DC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 755EE23F1DD4760600F41DC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 755EE2461DD4760600F41DC4;
+			remoteInfo = OAuthentication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		756C7B821DD4C0690017B469 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7569DA581E5C807F00C5D751 /* SAPFoundation.framework in Embed Frameworks */,
+				75C120441E682416005E9FD2 /* SAPFiori.framework in Embed Frameworks */,
+				75C120421E682416005E9FD2 /* SAPOfflineOData.framework in Embed Frameworks */,
+				128605051E55E16600C698B5 /* SAPCommon.framework in Embed Frameworks */,
+				756C7B811DD4C0690017B469 /* SAPOData.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		128605031E55E15F00C698B5 /* SAPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPCommon.framework; sourceTree = "<group>"; };
+		216121600B09D3DC6CCB8466 /* ESPMContainerMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainerMetadata.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/ESPMContainerMetadata.swift"; sourceTree = "<group>"; };
+		21A37AC093B0CF501E6D65A9 /* ESPMContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESPMContainer.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/ESPMContainer.swift"; sourceTree = "<group>"; };
+		39AEC2951EEA8A04000A5DD7 /* CustomerDataTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerDataTVC.swift; sourceTree = "<group>"; };
+		39B856E51EE9218D001DAED0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		39B856E71EE921B5001DAED0 /* ESPMContainerDataAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPMContainerDataAccess.swift; sourceTree = "<group>"; };
+		39B856EA1EE922B7001DAED0 /* OAuthVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthVC.swift; sourceTree = "<group>"; };
+		39B856ED1EE922F7001DAED0 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		39B856EF1EE92328001DAED0 /* Notifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+		39EED2C81EEB28D000B9E26F /* MasterDetailDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterDetailDelegate.swift; sourceTree = "<group>"; };
+		64BF76903B82CBBD44F4962A /* SalesOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderItem.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/SalesOrderItem.swift"; sourceTree = "<group>"; };
+		6838478B4547CD2E72A7A4CF /* Stock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stock.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/Stock.swift"; sourceTree = "<group>"; };
+		755EE2471DD4760600F41DC4 /* OAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		755EE24A1DD4760600F41DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		755EE24C1DD4760700F41DC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		755EE24F1DD4760700F41DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		755EE2511DD4760700F41DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		755EE2541DD4760700F41DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		755EE2561DD4760700F41DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755EE25B1DD4760700F41DC4 /* OAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		755EE2661DD4760700F41DC4 /* OAuthenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuthenticationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7569DA551E5C806800C5D751 /* SAPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFoundation.framework; sourceTree = "<group>"; };
+		756C7B781DD4C0600017B469 /* SAPOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOData.framework; sourceTree = "<group>"; };
+		75C1203D1E6823E0005E9FD2 /* SAPFiori.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPFiori.framework; sourceTree = "<group>"; };
+		75C1203F1E6823E8005E9FD2 /* SAPOfflineOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SAPOfflineOData.framework; sourceTree = "<group>"; };
+		76EFA7FA788627CB13F558E3 /* Product.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Product.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/Product.swift"; sourceTree = "<group>"; };
+		7A6D2F5190D4C4B1056CD4E5 /* SalesOrderHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SalesOrderHeader.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/SalesOrderHeader.swift"; sourceTree = "<group>"; };
+		7CC3E007C65EF2520CFF905F /* Customer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Customer.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/Customer.swift"; sourceTree = "<group>"; };
+		8B6AACA1E1DDEC37193F3A22 /* PurchaseOrderItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseOrderItem.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/PurchaseOrderItem.swift"; sourceTree = "<group>"; };
+		9D62457E4A77990916F651DD /* ProductCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductCategory.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/ProductCategory.swift"; sourceTree = "<group>"; };
+		D624D80981C6BF4E1AE09B3E /* ProductText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductText.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/ProductText.swift"; sourceTree = "<group>"; };
+		DB7B9550BC981C3BBA994FC5 /* Supplier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Supplier.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/Supplier.swift"; sourceTree = "<group>"; };
+		EDD6C3C6AA30821EB198D1C2 /* PurchaseOrderHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PurchaseOrderHeader.swift; path = "Proxy Classes/com.sayantan.OAuthentication/public/PurchaseOrderHeader.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		755EE2441DD4760600F41DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7569DA571E5C807F00C5D751 /* SAPFoundation.framework in Frameworks */,
+				75C120431E682416005E9FD2 /* SAPFiori.framework in Frameworks */,
+				75C120411E682416005E9FD2 /* SAPOfflineOData.framework in Frameworks */,
+				756C7B801DD4C0690017B469 /* SAPOData.framework in Frameworks */,
+				128605041E55E15F00C698B5 /* SAPCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755EE2581DD4760700F41DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755EE2631DD4760700F41DC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39B856E41EE9216B001DAED0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39B856E51EE9218D001DAED0 /* Constants.swift */,
+				39B856E71EE921B5001DAED0 /* ESPMContainerDataAccess.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		39B856E91EE921F5001DAED0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				755EE24C1DD4760700F41DC4 /* ViewController.swift */,
+				39B856EA1EE922B7001DAED0 /* OAuthVC.swift */,
+				39AEC2951EEA8A04000A5DD7 /* CustomerDataTVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		39B856EC1EE922E0001DAED0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				39B856ED1EE922F7001DAED0 /* ActivityIndicator.swift */,
+				39B856EF1EE92328001DAED0 /* Notifier.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		39EED2C71EEB289F00B9E26F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				39EED2C81EEB28D000B9E26F /* MasterDetailDelegate.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		755EE23E1DD4760600F41DC4 = {
+			isa = PBXGroup;
+			children = (
+				755EE2491DD4760600F41DC4 /* OAuthentication */,
+				756C7B751DD4C0320017B469 /* Frameworks */,
+				755EE2481DD4760600F41DC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		755EE2481DD4760600F41DC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				755EE2471DD4760600F41DC4 /* OAuthentication.app */,
+				755EE25B1DD4760700F41DC4 /* OAuthenticationTests.xctest */,
+				755EE2661DD4760700F41DC4 /* OAuthenticationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		755EE2491DD4760600F41DC4 /* OAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				39EED2C71EEB289F00B9E26F /* Protocols */,
+				39B856EC1EE922E0001DAED0 /* Utils */,
+				39B856E91EE921F5001DAED0 /* ViewControllers */,
+				39B856E41EE9216B001DAED0 /* Model */,
+				755EE24E1DD4760700F41DC4 /* Main.storyboard */,
+				755EE24A1DD4760600F41DC4 /* AppDelegate.swift */,
+				755EE2511DD4760700F41DC4 /* Assets.xcassets */,
+				755EE2531DD4760700F41DC4 /* LaunchScreen.storyboard */,
+				755EE2561DD4760700F41DC4 /* Info.plist */,
+				D4DD4A43BE5BE441C309129E /* Proxy Classes */,
+			);
+			path = OAuthentication;
+			sourceTree = "<group>";
+		};
+		756C7B751DD4C0320017B469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75C1203F1E6823E8005E9FD2 /* SAPOfflineOData.framework */,
+				75C1203D1E6823E0005E9FD2 /* SAPFiori.framework */,
+				7569DA551E5C806800C5D751 /* SAPFoundation.framework */,
+				756C7B781DD4C0600017B469 /* SAPOData.framework */,
+				128605031E55E15F00C698B5 /* SAPCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90B1AD1ABFBB258DA12436AE /* public */ = {
+			isa = PBXGroup;
+			children = (
+				7CC3E007C65EF2520CFF905F /* Customer.swift */,
+				21A37AC093B0CF501E6D65A9 /* ESPMContainer.swift */,
+				216121600B09D3DC6CCB8466 /* ESPMContainerMetadata.swift */,
+				76EFA7FA788627CB13F558E3 /* Product.swift */,
+				9D62457E4A77990916F651DD /* ProductCategory.swift */,
+				D624D80981C6BF4E1AE09B3E /* ProductText.swift */,
+				EDD6C3C6AA30821EB198D1C2 /* PurchaseOrderHeader.swift */,
+				8B6AACA1E1DDEC37193F3A22 /* PurchaseOrderItem.swift */,
+				7A6D2F5190D4C4B1056CD4E5 /* SalesOrderHeader.swift */,
+				64BF76903B82CBBD44F4962A /* SalesOrderItem.swift */,
+				6838478B4547CD2E72A7A4CF /* Stock.swift */,
+				DB7B9550BC981C3BBA994FC5 /* Supplier.swift */,
+			);
+			name = public;
+			sourceTree = "<group>";
+		};
+		D4DD4A43BE5BE441C309129E /* Proxy Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D9FED22CB7AF385F68FBA88B /* com.sayantan.OAuthentication */,
+			);
+			name = "Proxy Classes";
+			sourceTree = "<group>";
+		};
+		D9FED22CB7AF385F68FBA88B /* com.sayantan.OAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				90B1AD1ABFBB258DA12436AE /* public */,
+			);
+			name = com.sayantan.OAuthentication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		755EE2461DD4760600F41DC4 /* OAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755EE26F1DD4760700F41DC4 /* Build configuration list for PBXNativeTarget "OAuthentication" */;
+			buildPhases = (
+				755EE2431DD4760600F41DC4 /* Sources */,
+				755EE2441DD4760600F41DC4 /* Frameworks */,
+				755EE2451DD4760600F41DC4 /* Resources */,
+				756C7B821DD4C0690017B469 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OAuthentication;
+			productName = OAuthentication;
+			productReference = 755EE2471DD4760600F41DC4 /* OAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		755EE25A1DD4760700F41DC4 /* OAuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755EE2721DD4760700F41DC4 /* Build configuration list for PBXNativeTarget "OAuthenticationTests" */;
+			buildPhases = (
+				755EE2571DD4760700F41DC4 /* Sources */,
+				755EE2581DD4760700F41DC4 /* Frameworks */,
+				755EE2591DD4760700F41DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				755EE25D1DD4760700F41DC4 /* PBXTargetDependency */,
+			);
+			name = OAuthenticationTests;
+			productName = OAuthenticationTests;
+			productReference = 755EE25B1DD4760700F41DC4 /* OAuthenticationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		755EE2651DD4760700F41DC4 /* OAuthenticationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755EE2751DD4760700F41DC4 /* Build configuration list for PBXNativeTarget "OAuthenticationUITests" */;
+			buildPhases = (
+				755EE2621DD4760700F41DC4 /* Sources */,
+				755EE2631DD4760700F41DC4 /* Frameworks */,
+				755EE2641DD4760700F41DC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				755EE2681DD4760700F41DC4 /* PBXTargetDependency */,
+			);
+			name = OAuthenticationUITests;
+			productName = OAuthenticationUITests;
+			productReference = 755EE2661DD4760700F41DC4 /* OAuthenticationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		755EE23F1DD4760600F41DC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = SAP;
+				TargetAttributes = {
+					755EE2461DD4760600F41DC4 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9DDPTP86JE;
+						ProvisioningStyle = Automatic;
+					};
+					755EE25A1DD4760700F41DC4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 755EE2461DD4760600F41DC4;
+					};
+					755EE2651DD4760700F41DC4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 755EE2461DD4760600F41DC4;
+					};
+				};
+			};
+			buildConfigurationList = 755EE2421DD4760600F41DC4 /* Build configuration list for PBXProject "OAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 755EE23E1DD4760600F41DC4;
+			productRefGroup = 755EE2481DD4760600F41DC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				755EE2461DD4760600F41DC4 /* OAuthentication */,
+				755EE25A1DD4760700F41DC4 /* OAuthenticationTests */,
+				755EE2651DD4760700F41DC4 /* OAuthenticationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		755EE2451DD4760600F41DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755EE2551DD4760700F41DC4 /* LaunchScreen.storyboard in Resources */,
+				755EE2521DD4760700F41DC4 /* Assets.xcassets in Resources */,
+				755EE2501DD4760700F41DC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755EE2591DD4760700F41DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755EE2641DD4760700F41DC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		755EE2431DD4760600F41DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39B856F01EE92328001DAED0 /* Notifier.swift in Sources */,
+				755EE24D1DD4760700F41DC4 /* ViewController.swift in Sources */,
+				755EE24B1DD4760600F41DC4 /* AppDelegate.swift in Sources */,
+				250FC7A33C1FDCFDB6EBC304 /* Customer.swift in Sources */,
+				62403F04E836E96CEA8EBFBC /* ESPMContainer.swift in Sources */,
+				A77F6C555D0362AA235047B2 /* ESPMContainerMetadata.swift in Sources */,
+				39B856E61EE9218D001DAED0 /* Constants.swift in Sources */,
+				DEDAFD8FB699EFC1F9C49B5B /* Product.swift in Sources */,
+				665CB3607A695D076B3DA82E /* ProductCategory.swift in Sources */,
+				39AEC2961EEA8A04000A5DD7 /* CustomerDataTVC.swift in Sources */,
+				7B1078320086F11754FB09A1 /* ProductText.swift in Sources */,
+				3D2677DD199038F863C2AE36 /* PurchaseOrderHeader.swift in Sources */,
+				39B856EB1EE922B7001DAED0 /* OAuthVC.swift in Sources */,
+				12C8F50F782CB93827522344 /* PurchaseOrderItem.swift in Sources */,
+				996EBC765AE5FC6B6351435F /* SalesOrderHeader.swift in Sources */,
+				39B856E81EE921B5001DAED0 /* ESPMContainerDataAccess.swift in Sources */,
+				5836B7DED425CE777109C6DC /* SalesOrderItem.swift in Sources */,
+				E50A2C6251D1468D8030023A /* Stock.swift in Sources */,
+				39EED2C91EEB28D000B9E26F /* MasterDetailDelegate.swift in Sources */,
+				39B856EE1EE922F7001DAED0 /* ActivityIndicator.swift in Sources */,
+				1770D29F4E270A3ABA942400 /* Supplier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755EE2571DD4760700F41DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755EE2621DD4760700F41DC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		755EE25D1DD4760700F41DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 755EE2461DD4760600F41DC4 /* OAuthentication */;
+			targetProxy = 755EE25C1DD4760700F41DC4 /* PBXContainerItemProxy */;
+		};
+		755EE2681DD4760700F41DC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 755EE2461DD4760600F41DC4 /* OAuthentication */;
+			targetProxy = 755EE2671DD4760700F41DC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		755EE24E1DD4760700F41DC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				755EE24F1DD4760700F41DC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		755EE2531DD4760700F41DC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				755EE2541DD4760700F41DC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		755EE26D1DD4760700F41DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		755EE26E1DD4760700F41DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		755EE2701DD4760700F41DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9DDPTP86JE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = OAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBM.OAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		755EE2711DD4760700F41DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9DDPTP86JE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = OAuthentication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBM.OAuthentication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		755EE2731DD4760700F41DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OAuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.OAuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAuthentication.app/OAuthentication";
+			};
+			name = Debug;
+		};
+		755EE2741DD4760700F41DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OAuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.OAuthenticationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OAuthentication.app/OAuthentication";
+			};
+			name = Release;
+		};
+		755EE2761DD4760700F41DC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OAuthenticationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.OAuthenticationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OAuthentication;
+			};
+			name = Debug;
+		};
+		755EE2771DD4760700F41DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OAuthenticationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.OAuthenticationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OAuthentication;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		755EE2421DD4760600F41DC4 /* Build configuration list for PBXProject "OAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755EE26D1DD4760700F41DC4 /* Debug */,
+				755EE26E1DD4760700F41DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755EE26F1DD4760700F41DC4 /* Build configuration list for PBXNativeTarget "OAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755EE2701DD4760700F41DC4 /* Debug */,
+				755EE2711DD4760700F41DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755EE2721DD4760700F41DC4 /* Build configuration list for PBXNativeTarget "OAuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755EE2731DD4760700F41DC4 /* Debug */,
+				755EE2741DD4760700F41DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755EE2751DD4760700F41DC4 /* Build configuration list for PBXNativeTarget "OAuthenticationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755EE2761DD4760700F41DC4 /* Debug */,
+				755EE2771DD4760700F41DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 755EE23F1DD4760600F41DC4 /* Project object */;
+}
